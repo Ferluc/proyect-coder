@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+.nav__menu{
+    margin-top: 15px;
+    padding-left: 1%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.nav__menu__items{
+    display:flex ;
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    align-content: center;
+    
+}
+
+.carrousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 45rem;
+}
+
+main h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    color: rgb(194, 151, 87);
+    font-size: 40px;
+}
+
+.faqs{
+    
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 14rem;
+}
+.cambio{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+.galeria__mujer{
+    display: flex;
+    overflow-x: scroll;
+}
+.galeria__mujer__title{
+    display: flex;
+    justify-content: center;    
+    
+}
+.galeria__mujer__img{
+    display: flex;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+}
+.slider__home{
+    display: flex;
+    overflow-x: scroll;
+}
+.slider__prod__img{
+    
+    padding-block: 6rem;
+    display: flex;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+}
+.galeria__hombre{
+    display: flex;
+    overflow-x: scroll;
+}
+.galeria__hombre_title{
+    display: flex;
+    justify-content: center;    
+    
+}
+.galeria__hombre__img{
+    display: flex;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.table{
+    
+    padding-block-start: 5%;
+    padding-block-end: 8%;
+    display:flex;
+
+    justify-content: center;
+}
+
+.footer{
+    background-color: burlywood;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+}
+.redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.contacto{
+    padding-top: 48px;
+    padding-block-end: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
