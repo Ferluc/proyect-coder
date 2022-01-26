@@ -6,7 +6,24 @@
 body{
     font-family: 'Playfair Display', serif;
 }
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 6;
+}
 .nav__menu{
+    margin-right: 20px;
+}
+.nav__menu__items{
+    display: inline-block;
+    margin-left: gi;
+}
+/* .nav__menu{
     margin-top: 15px;
     padding-left: 1%;
     display: flex;
@@ -22,16 +39,18 @@ body{
     justify-content: space-evenly;
     list-style: none;
     align-content: center;
-    
-}
+    font-size: 18px;
+} */
 
-.carrousel{
+.carrousel img{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
     width: 100%;
-    height: 45rem;
+    height: 20%; 
+    object-fit: cover;
+    
 }
 
 main h3{
@@ -40,6 +59,20 @@ main h3{
     padding-top: 3rem;
     color: rgb(194, 151, 87);
     font-size: 40px;
+}
+
+.slider__home{
+    display: flex;
+    overflow-x: scroll;
+}
+.slider__prod__img{
+    
+    /* padding-block: 6rem; */
+    /* display: flex; */
+    margin: 2%;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .faqs{
@@ -72,18 +105,7 @@ main h3{
     width: 300px;
     height: 400px;
 }
-.slider__home{
-    display: flex;
-    overflow-x: scroll;
-}
-.slider__prod__img{
-    
-    padding-block: 6rem;
-    display: flex;
-    margin: 20px;
-    width: 300px;
-    height: 400px;
-}
+
 .galeria__hombre{
     display: flex;
     overflow-x: scroll;
