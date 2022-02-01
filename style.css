@@ -139,24 +139,25 @@ main h3{
     "mapa" "pago" "redes";
 }
 .redes {
+    margin: 5%;
     grid-area: redes;
     grid-column-start: 3;
     grid-row-start: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-end;
-
+    align-items: flex-end ;
 }
 .pago{
     grid-area: pago;
     grid-column-start: 2;
-    grid-row-start: 2 ;
+    grid-row-start: 1 ;
     display: flex;
     flex-direction: column;
-    
+    justify-content: end;
+    padding-left: 10%;
 }
+
 .mapa{
     grid-area: mapa;
     grid-column-start: 1;
@@ -170,6 +171,7 @@ main h3{
     flex-direction: column;
     align-items: center;
 }
+
 
 @media only screen and (max-width:600px) {
     .nav__menu{
@@ -205,24 +207,41 @@ main h3{
         font-size: 25px;
     }
     
+    .gridfooter{
+        display: grid;
+        background-color: burlywood;
+        color: white;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "redes"
+        "pago";
+    }
     .mapa{
         display: none;
     }
     .redes{
         grid-column-start: 1;
-        
+        display: flex;
+        align-items: center;
     }
-    
+    .pago{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        align-items: flex-start;
+
+    }
+        
     .galeria__mujer__img{
         margin: 2%;
         width: 200px;
-        height: 150px
-        object-fit: cover;
+        height: 150px;
+        object-fit:cover;
     }
     .galeria__hombre__img{
         margin: 2%;
         width: 200px;
-        height: 150px
+        height: 150px;
         object-fit: cover;
     }
 
