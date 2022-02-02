@@ -163,7 +163,22 @@ main h3{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-end ;
+    cursor: pointer;
 }
+
+.fa-facebook{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+.facebook:hover{
+    color: blue;
+}
+.instagram:hover{
+    color:rgba(153, 126, 226, 0.747)
+}
+
 .pago{
     grid-area: pago;
     grid-column-start: 2;
