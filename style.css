@@ -168,24 +168,24 @@ main h3{
 
 .fa-facebook{
     color: white;
+    
 }
 .fa-instagram{
     color: white;
 }
-.facebook:hover{
-    color: blue;
+.fa-facebook :hover{
+    cursor: pointer;
 }
-.instagram:hover{
+.fa-instagram:hover{
     color:rgba(153, 126, 226, 0.747)
 }
 
 .pago{
     grid-area: pago;
     grid-column-start: 2;
-    grid-row-start: 1 ;
+    grid-row-start: 2 ;
     display: flex;
     flex-direction: column;
-    justify-content: end;
     padding-left: 10%;
 }
 
