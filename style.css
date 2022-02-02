@@ -118,6 +118,22 @@ main h3{
     height: 400px;
     object-fit: cover;
 }
+.galeria__niños{
+    display: flex;
+    overflow-x: scroll;
+}
+.galeria__niños_title{
+    display: flex;
+    justify-content: center;
+
+}
+.galeria__niños__img{
+    display: flex;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
 
 .table{
 
@@ -245,6 +261,12 @@ main h3{
         object-fit: cover;
     }
 
+    .galeria__niños__img{
+        margin: 2%;
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
     .faqs{
 
         height: 20%;
