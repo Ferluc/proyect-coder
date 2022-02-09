@@ -1,17 +1,18 @@
 
-/* .slider__home{
-    display: flex;
-    flex-flow: row nowrap;
-    overflow-x: scroll;
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(204, 167, 110);
+    
 }
-.slider__prod__img{
-
-    margin: 2%;
-    width: 500px;
-    height: 400px;
-    object-fit: cover;
-} */
-
+#banner h3{
+    font-weight: bold;
+    color: rgb(204, 167, 110);
+}
+#tit-main h2{
+    font-weight: bold;
+    color: rgb(204, 167, 110);
+}
 .faqs{
 
     height: 40%;
@@ -123,7 +124,33 @@
     color:rgba(153, 126, 226, 0.747)
 }
 
-.pago{
+#local {
+    background: burlywood;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+}
+
+.wrapper {
+    width: 80%;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+#section-contacto {
+    padding: 50px;
+}
+
+#btn-form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+/* .pago{
     grid-area: pago;
     grid-column-start: 2;
     grid-row-start: 2 ;
@@ -144,10 +171,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+
+@media (max-width:576px){
+    #banner{
+        width: 100%;
+    }
+    .mapa{
+        display: none;
+    }
+
 }
 
+@media (max-width:1200px){
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
 
-@media only screen and (max-width:600px) {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/* @media only screen and (max-width:600px) {
     .nav__menu{
         display: flex;
         flex-flow: row nowrap;
@@ -239,6 +288,6 @@
         width: 80%;
     
     }
-}
+} */
 
 

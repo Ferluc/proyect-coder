@@ -22,7 +22,7 @@
 
     <header class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white; ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-1 " id="menu">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img class="logo" src="./imagenes/logo.jpg" alt="img__logo" height="110px">
@@ -53,13 +53,13 @@
 
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="email" placeholder="Correo Electronico"
+                            aria-label="email">
+                        <button class="btn btn-dark btn-outline-success text-light" type="button">Suscribete</button>
                     </form>
                 </div>
             </div>
         </nav>
-
 
     </header>
 
@@ -93,42 +93,56 @@
         </button>
     </div>
 
-    <h3>#Disfruta de tu calzado con Bennay#</h3>
-    
-    <!-- <main>
-        <section>
-            <div class="slider__home">
-                <img src="./imagenes/pantu.jpg" class="slider__prod__img" alt="1">
-                <img src="./imagenes/zapa2.jpeg" class="slider__prod__img" alt="2">
-                <img src="./imagenes/sanda2.jpg" class="slider__prod__img" alt="3">
-                <img src="./imagenes/sanda3.jpeg" class="slider__prod__img" alt="4"> 
-            </div>
-    
-        </section>
-    </main>  -->
-    <div class="d-flex flex-lg-row flex-column p-2 mb-3">
-        <div class="card" style="width: 18rem;">
-            <img src="./imagenes/zapasuela.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">ZAPATILLAS SUELA</p>
-            </div>
-          </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./imagenes/Sandaliacombinada.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">ZANDALIAS COMBINADAS</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./imagenes/niño.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">NUEVO!! CALZADOS PARA NIÑOS</p>
-            </div>
-        </div>
-    </div>
-    
+    <section class="container-fluid p-4 mx-auto text-center fst-italic" id="banner">
+        <h3>#Disfruta de tu calzado con Bennay#</h3>
+    </section>
 
-    <footer class="gridfooter">
+    <section class="container-fluid p-4 mx-auto text-center fst-italic" id="tit-main">
+        <h2>LANZAMIENTOS</h2>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row  mx-auto">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="./imagenes/niño.jpg" alt="niños" class="rounded" width="280" height="320">
+                <h4>Calzados para niños</h4>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="./imagenes/Sandaliacombinada.jpg" class="rounded" alt="combinadas" width="280" height="320">
+                <h4>Sandalias combinadas vs colores</h4>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="./imagenes/borcegos.jpg" alt="borcegos" class="rounded" width="280" height="320">
+                <h4>Hermosos borcegos</h4>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="./imagenes/sandamarron.jpg" alt="sandalias" class="rounded" width="280" height="320">
+                <h4>Sandalias vs colores</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div id="local">
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13153.438429695076!2d-58.51667252246093!3d-34.4937665057648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1644370913987!5m2!1ses!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+            <div class="wrapper">
+                <h2 class="fs-4 text-light" >Ubicados en Martinez</h2>
+                <h2 class="fs-4 text-light">Ventas al por menor y por mayor</h2>
+                <h2 class="fs-4 text-light">Envíos a todo el país</h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- <footer class="gridfooter">
         <section class="redes">
             <h3>Seguinos en nuestras redes</h3>
             <div>
@@ -162,7 +176,7 @@
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1955.1890227251733!2d-58.513211828088366!3d-34.49723343125189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1643160282218!5m2!1ses!2sar"
                 width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
