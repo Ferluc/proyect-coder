@@ -3,8 +3,8 @@
     font-size: 18px;
     font-weight: bold;
     color: rgb(204, 167, 110);
-    
 }
+
 #banner h3{
     font-weight: bold;
     color: rgb(204, 167, 110);
@@ -84,59 +84,27 @@
     padding-block-start: 5%;
     padding-block-end: 8%;
     display:flex;
-
     justify-content: center;
 }
 
 
-.gridfooter{
-    display: grid;
-    background-color: burlywood;
-    color: white;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-    "mapa" "pago" "redes"
-    "mapa" "pago" "redes";
-}
-.redes {
-    margin: 5%;
-    grid-area: redes;
-    grid-column-start: 3;
-    grid-row-start: 1;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-end ;
-    cursor: pointer;
-}
-
-.fa-facebook{
-    color: white;
-    
-}
-.fa-instagram{
-    color: white;
-}
-.fa-facebook :hover{
-    cursor: pointer;
-}
-.fa-instagram:hover{
-    color:rgba(153, 126, 226, 0.747)
-}
-
 #local {
     background: burlywood;
-    padding-bottom: 300px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 50px;
-    
+       
+}
+#wrapper{
+    padding: 80px;
 }
 
-.wrapper {
-    width: 80%;
-    margin-left: 100px;
-    padding-top: 50px;
+
+#pago{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #section-contacto {
@@ -150,28 +118,10 @@
 }
 
 
-/* .pago{
-    grid-area: pago;
-    grid-column-start: 2;
-    grid-row-start: 2 ;
-    display: flex;
-    flex-direction: column;
-    padding-left: 10%;
+.bi:hover{
+    color:rgba(153, 126, 226, 0.747)
 }
 
-.mapa{
-    grid-area: mapa;
-    grid-column-start: 1;
-    grid-row-start: 2 ;
-}
-
-.contacto{
-    padding-top: 48px;
-    padding-block-end: 8%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 
 @media (max-width:576px){
     #banner{
@@ -183,111 +133,24 @@
 
 }
 
-@media (max-width:1200px){
+@media (min-width:768px){
     #local {
         flex-wrap: wrap;
         padding-top: 30px;
     }
 
-    .wrapper {
+    #section-contacto {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    #wrapper {
         width: 90%;
         margin: auto;
         padding-top: 50px;
     }
+  
 }
 
-/* @media only screen and (max-width:600px) {
-    .nav__menu{
-        display: flex;
-        flex-flow: row nowrap;
-    }
-    .nav__menu__items{
-        display: flex;
-        flex-direction: column;
-        align-content: flex-end;
-        align-items: flex-end;
-               
-    }
-       
-    .slider__home{
-        display: flex;
-        flex-direction: row;
-        overflow-y: scroll;
-    }
-
-    .slider__prod__img{
-
-        margin: 2%;
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-    }
-    .carrousel h3{
-        display: flex;
-        justify-content: center;
-        padding-top: 3rem;
-        color: rgb(194, 151, 87);
-        font-size: 25px;
-    }
-    
-    .gridfooter{
-        display: grid;
-        background-color: burlywood;
-        color: white;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
-        "redes"
-        "pago";
-    }
-    .mapa{
-        display: none;
-    }
-    .redes{
-        grid-column-start: 1;
-        display: flex;
-        align-items: center;
-    }
-    .pago{
-        grid-column-start: 1;
-        grid-row-start: 2;
-        align-items: flex-start;
-
-    }
-        
-    .galeria__mujer__img{
-        margin: 2%;
-        width: 200px;
-        height: 150px;
-        object-fit:cover;
-    }
-    .galeria__hombre__img{
-        margin: 2%;
-        width: 200px;
-        height: 150px;
-        object-fit: cover;
-    }
-
-    .galeria__niños__img{
-        margin: 2%;
-        width: 200px;
-        height: 150px;
-        object-fit: cover;
-    }
-    .faqs{
-
-        height: 20%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 8%;
-    }
-    .cambio{
-        display: flex;
-        justify-content: center;
-        width: 80%;
-    
-    }
-} */
 
 
