@@ -5,20 +5,20 @@
     color: rgb(204, 167, 110);
 }
 
-#banner h3{
+/* #banner h3{
     font-weight: bold;
     color: rgb(204, 167, 110);
-}
-#tit-main h2{
+} */
+.titulos h3, h2{
     font-weight: bold;
     color: rgb(204, 167, 110);
 }
 
-h1,
+/* h1,
 .h1{
     font-size: 34px;
     font-weight: 700;
-}
+} */
 
 .color-circle{
     height: 15px;
@@ -29,10 +29,10 @@ h1,
     display: inline-block;
     margin-top: 10px;
 }
-#Title__Productos{
+/* #Title__Productos{
     font-weight: bold;
     color: rgb(204, 167, 110);
-}
+} */
 
 .table{
 

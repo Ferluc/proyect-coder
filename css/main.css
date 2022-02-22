@@ -1,0 +1,64 @@
+.titulos h3, h2 {
+  font-weight: bold;
+  color: #cca76e; }
+
+#menu a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #cca76e; }
+
+@media (max-width: 576px) {
+  #banner {
+    width: 100%; }
+  .mapa {
+    display: none; } }
+
+@media (min-width: 768px) {
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px; }
+  #section-contacto {
+    max-width: 50%;
+    margin: auto; }
+  #wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px; } }
+
+#section-contacto {
+  padding: 50px; }
+
+#btn-form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px; }
+
+.color-circle {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 10px; }
+
+.table {
+  padding-block-start: 5%;
+  padding-block-end: 8%;
+  display: flex;
+  justify-content: center; }
+
+#local {
+  background: burlywood;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px; }
+
+#wrapper {
+  padding: 80px; }
+
+#pago {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
