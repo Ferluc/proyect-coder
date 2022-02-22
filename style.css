@@ -20,6 +20,15 @@ h1,
     font-weight: 700;
 }
 
+.color-circle{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+}
 #Title__Productos{
     font-weight: bold;
     color: rgb(204, 167, 110);
