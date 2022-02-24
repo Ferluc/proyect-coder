@@ -1,7 +1,17 @@
-.table{
+body{
+    section{
+        div{
+            table{ 
+                text-align: center;
+                thead{
+                    
+                        background-color: rgba(193, 206, 172, 0.575);
+                    
+                }
+            }
 
-    padding-block-start: 5%;
-    padding-block-end: 8%;
-    display:flex;
-    justify-content: center;
+        }
+    }
 }
+
+
