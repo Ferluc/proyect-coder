@@ -5,6 +5,12 @@
     padding-top: 50px;
        
 }
+#newsletter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 #wrapper{
     padding: 80px;
 }
